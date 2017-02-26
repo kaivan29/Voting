@@ -1,0 +1,52 @@
+language: cpp
+
+compiler: gcc
+
+sudo: false
+
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - clang
+      - doxygen
+      - g++-4.8
+      - libboost-dev
+      - libgtest-dev
+      - valgrind
+
+install:
+    - mkdir gtest
+    - cd gtest
+    - echo $(pwd)
+    - export LIBRARY_PATH=$(pwd)
+    - cp -r /usr/src/gtest/* ./
+    - cmake -D CMAKE_INSTALL_PREFIX:PATH=./ ./
+    - make
+    - ls -al
+    - cd -
+
+before_script:
+    - uname -a
+    - printenv
+    - clang --version
+    - g++-4.8 --version
+    - dpkg -l libgtest-dev
+    - gcov-4.8 --version
+    - grep "#define BOOST_VERSION " /usr/include/boost/version.hpp
+    - valgrind --version
+    - doxygen --version
+
+script:
+    - date
+    - ls -al
+    - make voting-tests
+    - ls -al
+    - make html
+    - ls -al
+    - make Voting.log
+    - ls -al
+    - make test
+    - ls -al
+    - make check

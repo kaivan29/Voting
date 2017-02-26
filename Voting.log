@@ -1,0 +1,59 @@
+commit 1d5a8faaf66f962491d10deb9046cf286014417d
+Author: lyee <lyeec9@gmail.com>
+Date:   Thu Sep 24 21:10:58 2015 -0500
+
+    Documentation done
+
+commit 868229b51d544e7fd1c4d8c6b17a36c997ca05b7
+Author: lyee <lyeec9@gmail.com>
+Date:   Tue Sep 22 15:09:11 2015 -0500
+
+    Fixes #7, fixes #8. Created, debugged, and submitted UVaVoting.c++ code.
+
+commit e4152a985f7904fb4fff89783c0908ccde48ce6e
+Author: lyee <lyeec9@gmail.com>
+Date:   Sat Sep 19 16:16:17 2015 -0500
+
+    Basic solution works
+
+commit df7030d92ff484cd07c8885c6756f80d3caa3a88
+Author: lyee <lyeec9@gmail.com>
+Date:   Sat Sep 19 15:29:10 2015 -0500
+
+    Added a basic solution for finding the winning candidates. Does not work.
+
+commit ef448d1a9d880c5927d13553d216eea2627fb520
+Author: lyee <lyeec9@gmail.com>
+Date:   Sat Sep 19 14:45:24 2015 -0500
+
+    Implemented a check for a winning condition, and the abilitiy to find losing candidates
+
+commit 52d1c1d4df0942ccae980dfcc9e2012d07efcb74
+Author: lyee <lyeec9@gmail.com>
+Date:   Fri Sep 18 21:53:48 2015 -0500
+
+    Created Test files, and added minimal tests to check correct behavior. Debugged code so that basic acceptance tests would run and print out a list of all candidate names.
+
+commit 8f100f6cdedd627c0788f31d6e13498fb9ed34cd
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Tue Sep 15 13:40:42 2015 -0500
+
+    Make travis run
+
+commit 2aeb38c92aa8f08b497ca421a94c0e8b22c81035
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Tue Sep 15 13:31:16 2015 -0500
+
+    Added makefile and .travis.yml
+
+commit 0657f21b09be2ebe68fe139e613a4b4acd720905
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Tue Sep 15 13:21:38 2015 -0500
+
+    intial attempt at vote read in. Created header file for Voting.
+
+commit b390a996628588f717afb27c8c989765f63b52c0
+Author: Kaivan Shah <kaivan29@tamu.edu>
+Date:   Tue Sep 15 11:37:42 2015 -0500
+
+    Create README.md

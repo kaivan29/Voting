@@ -1,0 +1,10 @@
+var searchData=
+[
+  ['vote_5fcount',['vote_count',['../classCandidate.html#ad7cfbc7abbf0002a18167ce661128dbb',1,'Candidate']]],
+  ['voting_2ec_2b_2b',['Voting.c++',['../Voting_8c_09_09.html',1,'']]],
+  ['voting_2eh',['Voting.h',['../Voting_8h.html',1,'']]],
+  ['voting_5feval',['voting_eval',['../UVaVoting_8c_09_09.html#a717a7306366470aa90a2747288299acc',1,'voting_eval(vector&lt; Candidate &gt; candidates, vector&lt; Ballot &gt; ballots):&#160;UVaVoting.c++'],['../Voting_8c_09_09.html#ac4b561910a83aeaaf4dc580a9b29d586',1,'voting_eval(vector&lt; Candidate &gt; candidates, vector&lt; Ballot &gt; ballots):&#160;Voting.c++'],['../Voting_8h.html#ac4b561910a83aeaaf4dc580a9b29d586',1,'voting_eval(vector&lt; Candidate &gt; candidates, vector&lt; Ballot &gt; ballots):&#160;UVaVoting.c++']]],
+  ['voting_5fprint',['voting_print',['../UVaVoting_8c_09_09.html#a53a8f7b550f9a9a3ffaa6c8fd714458c',1,'voting_print(ostream &amp;w, vector&lt; string &gt; names, bool isEOF):&#160;UVaVoting.c++'],['../Voting_8c_09_09.html#a53a8f7b550f9a9a3ffaa6c8fd714458c',1,'voting_print(ostream &amp;w, vector&lt; string &gt; names, bool isEOF):&#160;Voting.c++'],['../Voting_8h.html#a53a8f7b550f9a9a3ffaa6c8fd714458c',1,'voting_print(ostream &amp;w, vector&lt; string &gt; names, bool isEOF):&#160;UVaVoting.c++']]],
+  ['voting_5fread',['voting_read',['../UVaVoting_8c_09_09.html#a066bbee8e0b25dbd1510b50686280bd4',1,'voting_read(const string &amp;s, int size):&#160;UVaVoting.c++'],['../Voting_8c_09_09.html#acec8f543815a763de2af382c66b87b86',1,'voting_read(const string &amp;s, int size):&#160;Voting.c++'],['../Voting_8h.html#acec8f543815a763de2af382c66b87b86',1,'voting_read(const string &amp;s, int size):&#160;UVaVoting.c++']]],
+  ['voting_5fsolve',['voting_solve',['../UVaVoting_8c_09_09.html#aed21eca169108fbf5b77db1e7e21af2e',1,'voting_solve(istream &amp;r, ostream &amp;w):&#160;UVaVoting.c++'],['../Voting_8c_09_09.html#aed21eca169108fbf5b77db1e7e21af2e',1,'voting_solve(istream &amp;r, ostream &amp;w):&#160;Voting.c++'],['../Voting_8h.html#aed21eca169108fbf5b77db1e7e21af2e',1,'voting_solve(istream &amp;r, ostream &amp;w):&#160;UVaVoting.c++']]]
+];
